@@ -288,6 +288,7 @@ text-align: center;
     align-items:center;
     padding: 10px;
     margin-left:220px;
+    text-transform:capitalize;
 
 }
 .direccion-oficina{
