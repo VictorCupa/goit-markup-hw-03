@@ -33,8 +33,8 @@ address{
 body{
     background-color: var(--colorfondopagina);
 }
-.contenedor{
-    width: 1600px;
+.container{
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -52,8 +52,6 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
-
 }
 .enlaces li{
    display:inline-block;
@@ -61,7 +59,6 @@ body{
    align-items:center;
    margin-inline: 50px;
    margin-top: 30px;
-  
 }
 .webstudio{
     font-family:'Raleway';;
@@ -122,9 +119,9 @@ a{
     height: 600px;
     background-color:#2f303a;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 h1{
     width: 696px;
@@ -159,11 +156,14 @@ h1{
 /*servicios ofrecidos*/
 .servicios{
     width: 100%;
+    height: auto;
+
 }
 .cualidades{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 10px;
+  
 }
 .valor-agregado {
     margin-top: 30px;
@@ -188,6 +188,7 @@ h1{
     color: #757575;
 }
 .titulo-servicio{
+margin-left: 69px;
 margin-top: 50px;
 font-family: 'Roboto';
 font-style: normal;
@@ -196,21 +197,24 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 }
-.imagenes-producto{
+.imagen-producto{
     display: flex;
-    justify-content:space-evenly;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 55px;
-    margin-inline: 30px;
+    margin-inline:50px;
     margin-bottom: 55px;
 }
 /*Nuestro equippo*/
 .nuestro-equipo{
-    width: 1600px;
+    width: 100%;
     height: 648px;
     background-color: #F5F4FA;
 }
 .integrante-equipo{
+  margin-left: 769px;
+    margin-top: 50px;
+    padding: 10px;
     Font-family: 'Roboto';
     Font-style: Bold;
     Font-size: 36px;
@@ -280,8 +284,11 @@ text-align: center;
 }
 .webstudio-footer{
     display: flex;
+    flex-direction: block;
+    align-items:center;
+    padding: 10px;
     margin-left:220px;
-    margin-top:60px ;
+
 }
 .direccion-oficina{
     width: 231px;
